@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeroeComponent {
     nombre: string = 'Ironman';
-    edad: number = 45;
+    edad: number = 48;
 
     
     get nombreCapitalizado(): string{
