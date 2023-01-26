@@ -1,0 +1,11 @@
+<!-- <p>agregar works!</p> -->
+
+<h3>Agregar</h3>
+<hr>
+<form (submit)="agregar()" >
+    <!-- Con [value]="" podemos asignar un valor declarado en el component -->
+    <!-- [value]="nuevo.nombre" (input)="cambiarNombre($event)" -->
+    <input type="text" placeholder="Nombre" name="nombre" [(ngModel)]="nuevo.nombre"/>
+    <input type="number" placeholder="Poder" name="poder" [(ngModel)]="nuevo.poder"/>
+    <button type="submit">Agregar</button>
+</form>
